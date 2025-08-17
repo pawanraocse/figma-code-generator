@@ -1,0 +1,32 @@
+{
+  "id": "unnamed",
+  "name": "unnamed",
+  "type": "FRAME",
+  "layerType": "frame",
+  "props": {
+    "x": 0,
+    "y": 0,
+    "w": 0,
+    "h": 0,
+    "metadata": {}
+  },
+  "children": [],
+  "style": {
+    "fills": [],
+    "strokes": [],
+    "font": {
+      "family": "",
+      "size": 0,
+      "weight": ""
+    },
+    "spacing": {
+      "padding": 0,
+      "margin": 0
+    },
+    "tokens": {
+      "color": "",
+      "spacing": ""
+    }
+  },
+  "tokensUsed": []
+}

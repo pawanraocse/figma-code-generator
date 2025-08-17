@@ -1,0 +1,6 @@
+{
+  "last_sha": "dev-sha",
+  "last_step": "build.validate",
+  "schemaPath": "tools/cache/schema-dev-sha.json",
+  "tokensPath": "src/styles/_tokens.scss"
+}

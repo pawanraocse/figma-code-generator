@@ -1,0 +1,11 @@
+// Auto-generated SCSS tokens
+$color-primary-500: #000000;
+$spacing-s-2: 8px;
+
+@mixin token-spacing($token) {
+  // Example: map token to spacing variable
+  @if $token == 's-2' {
+    padding: $spacing-s-2;
+  }
+  // Add more mappings as needed
+}

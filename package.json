@@ -1,0 +1,36 @@
+{
+  "name": "figma-to-angular",
+  "version": "1.0.0",
+  "scripts": {
+    "mcp:dev": "ts-node tools/mcp/src/server.ts",
+    "mcp:start": "node tools/mcp/dist/server.js",
+    "fetch": "ts-node tools/fetch.ts",
+    "parse": "ts-node tools/parser.ts",
+    "generate-tokens": "ts-node tools/generate-tokens.ts",
+    "generate": "ts-node tools/generator.ts",
+    "compare": "ts-node tools/compare.ts",
+    "apply": "ts-node tools/apply.ts",
+    "resume": "ts-node tools/resume.ts",
+    "test": "jest",
+    "e2e": "cypress run",
+    "pipeline": "ts-node tools/pipeline.ts"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/body-parser": "^1.19.6",
+    "@types/commander": "^2.12.0",
+    "@types/ejs": "^3.1.5",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
+    "axios": "^1.11.0",
+    "body-parser": "^2.2.0",
+    "commander": "^14.0.0",
+    "dotenv-cli": "^10.0.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2"
+  }
+}
